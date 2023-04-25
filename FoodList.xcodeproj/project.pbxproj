@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2F5F002427076900DCA43B /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F5EFF2427076900DCA43B /* FormView.swift */; };
+		6E2F5F02242975D200DCA43B /* NewEntryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F5F01242975D200DCA43B /* NewEntryButton.swift */; };
+		6E3AFF222457F6340097951A /* BloodSpikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AFF212457F6340097951A /* BloodSpikes.swift */; };
+		6E572499244E4F5800F48443 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 6E572498244E4F5800F48443 /* SwiftUICharts */; };
+		6EDDEC45243948A3000C7BD5 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDDEC44243948A3000C7BD5 /* MealCell.swift */; };
+		6EE4545C243CCF3900D58123 /* Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4545B243CCF3900D58123 /* Insights.swift */; };
+		6EE4545E243CCFCE00D58123 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4545D243CCFCE00D58123 /* AppView.swift */; };
 		6EF2B57624193FD90047ACE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2B57524193FD90047ACE3 /* AppDelegate.swift */; };
 		6EF2B57824193FD90047ACE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2B57724193FD90047ACE3 /* SceneDelegate.swift */; };
 		6EF2B57A24193FD90047ACE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2B57924193FD90047ACE3 /* ContentView.swift */; };
 		6EF2B57C24193FDB0047ACE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2B57B24193FDB0047ACE3 /* Assets.xcassets */; };
 		6EF2B57F24193FDB0047ACE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2B57E24193FDB0047ACE3 /* Preview Assets.xcassets */; };
 		6EF2B58224193FDB0047ACE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2B58024193FDB0047ACE3 /* LaunchScreen.storyboard */; };
+		6EF2B58A2419C82D0047ACE3 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2B5892419C82D0047ACE3 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E2F5EFF2427076900DCA43B /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		6E2F5F01242975D200DCA43B /* NewEntryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryButton.swift; sourceTree = "<group>"; };
+		6E3AFF212457F6340097951A /* BloodSpikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodSpikes.swift; sourceTree = "<group>"; };
+		6EDDEC44243948A3000C7BD5 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		6EE4545B243CCF3900D58123 /* Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insights.swift; sourceTree = "<group>"; };
+		6EE4545D243CCFCE00D58123 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		6EF2B57224193FD90047ACE3 /* FoodList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF2B57524193FD90047ACE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EF2B57724193FD90047ACE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,7 @@
 		6EF2B57E24193FDB0047ACE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EF2B58124193FDB0047ACE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EF2B58324193FDB0047ACE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF2B5892419C82D0047ACE3 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E572499244E4F5800F48443 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +74,15 @@
 			children = (
 				6EF2B57524193FD90047ACE3 /* AppDelegate.swift */,
 				6EF2B57724193FD90047ACE3 /* SceneDelegate.swift */,
+				6E3AFF212457F6340097951A /* BloodSpikes.swift */,
 				6EF2B57924193FD90047ACE3 /* ContentView.swift */,
+				6EF2B5892419C82D0047ACE3 /* DetailsView.swift */,
+				6E2F5F01242975D200DCA43B /* NewEntryButton.swift */,
+				6EE4545D243CCFCE00D58123 /* AppView.swift */,
+				6EE4545B243CCF3900D58123 /* Insights.swift */,
+				6EDDEC44243948A3000C7BD5 /* MealCell.swift */,
 				6EF2B57B24193FDB0047ACE3 /* Assets.xcassets */,
+				6E2F5EFF2427076900DCA43B /* FormView.swift */,
 				6EF2B58024193FDB0047ACE3 /* LaunchScreen.storyboard */,
 				6EF2B58324193FDB0047ACE3 /* Info.plist */,
 				6EF2B57D24193FDB0047ACE3 /* Preview Content */,
@@ -91,6 +114,9 @@
 			dependencies = (
 			);
 			name = FoodList;
+			packageProductDependencies = (
+				6E572498244E4F5800F48443 /* SwiftUICharts */,
+			);
 			productName = FoodList;
 			productReference = 6EF2B57224193FD90047ACE3 /* FoodList.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +145,9 @@
 				Base,
 			);
 			mainGroup = 6EF2B56924193FD90047ACE3;
+			packageReferences = (
+				6E572497244E4F5700F48443 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 6EF2B57324193FD90047ACE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,6 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF2B57624193FD90047ACE3 /* AppDelegate.swift in Sources */,
+				6E2F5F02242975D200DCA43B /* NewEntryButton.swift in Sources */,
+				6EE4545E243CCFCE00D58123 /* AppView.swift in Sources */,
+				6EF2B58A2419C82D0047ACE3 /* DetailsView.swift in Sources */,
+				6EE4545C243CCF3900D58123 /* Insights.swift in Sources */,
+				6E3AFF222457F6340097951A /* BloodSpikes.swift in Sources */,
+				6EDDEC45243948A3000C7BD5 /* MealCell.swift in Sources */,
+				6E2F5F002427076900DCA43B /* FormView.swift in Sources */,
 				6EF2B57824193FD90047ACE3 /* SceneDelegate.swift in Sources */,
 				6EF2B57A24193FD90047ACE3 /* ContentView.swift in Sources */,
 			);
@@ -286,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodList/Preview Content\"";
-				DEVELOPMENT_TEAM = FAGWR3VRS6;
+				DEVELOPMENT_TEAM = 9U8B84CL7Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FoodList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E572497244E4F5700F48443 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E572498244E4F5800F48443 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E572497244E4F5700F48443 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EF2B56A24193FD90047ACE3 /* Project object */;
 }
